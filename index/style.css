@@ -1,0 +1,277 @@
+body{
+	font-size:14px;
+	line-height:26px;
+    color:#4c4c4c;
+    font-weight:normal;
+	overflow-x:hidden;
+    
+}
+.container-fluid {
+    max-width: 1800px;
+}
+#topheader {
+	background-color:#f5f5f5;
+}
+.header-top .row {
+	height:40px;
+}
+.topbar-left ul li {
+	font-size:12px;
+	text-transform:uppercase;
+	display:inline-block;
+	margin-right:45px;
+}
+
+.social-icons a {
+	font-size:12px;
+	color:#191919;
+	display:inline-block;
+	margin-right:25px;
+	line-height:40px;
+}
+.social-icons a:last-child {
+	margin-right:0;
+}
+.social-icons a:hover {
+	color:#e23e1d;
+}
+#bottomheader {
+	background-color:#fff;
+    position:relative;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    margin-top: -45px;
+    padding-top: 5px;
+}
+#bottomheader nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+    padding-top: 28px;
+    
+}
+
+#bottomheader  nav ul li {
+
+}
+#bottomheader  nav ul li a {
+	font-size:11px;
+	font-weight:500;
+	text-transform:uppercase;
+	color:#4c4c4c;
+	display:block;
+	margin-right:26px;
+	position:relative;
+    text-decoration: none;   
+}
+
+#bottomheader nav ul li a:hover {
+	color:#e23e1d;
+}
+.text-label {
+    font-size: 11px;
+    padding: 0 5px;
+    background: #5bc0de;
+    color: #fff;
+    position: absolute;
+    left: 28px;
+    top: -10px;
+    line-height: 2;
+    text-transform: capitalize;
+    border-radius: 2px;
+    
+}.text-label:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 7px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #5bc0de transparent transparent #5bc0de;
+}
+.text-label.label-hot {
+    background: tomato;
+}
+.text-label.label-hot:before {
+    border-color: tomato transparent transparent  tomato;
+}
+#bottomheader  nav ul li.theme{
+    display:inline-block;
+}
+#products-search {
+   
+    background-color:#fff;
+    position:relative;
+    
+}
+.search-box { }
+.search-box select, .search-box input, .search-box button {
+	float:left;
+	height:40px;
+	border:1px solid #ebebeb;
+}
+
+.search-box select {
+	width:25%;
+	border-right:0;
+	padding-left:15px;
+}
+
+.search-box input {
+	width:60%;
+	padding-left:15px;
+}
+.search-box button {
+	background-color:#e23e1d;
+	width:15%;
+	font-size:14px;
+	font-weight:500;
+	text-transform:uppercase;
+	border:0;
+	color:#ffffff;
+	cursor:pointer;
+	transition:.3s;
+}
+.search-box button:hover {
+	background-color:#b53217;
+}
+.dropdown-menu{
+	height: 40px;
+}
+.row .btn-group
+{
+	background-color: #fff;
+}
+.register-login a {
+	font-size:14px;
+	color:#4c4c4c;
+	
+}
+.register-login a:hover {
+	color:#e23e1d;
+}
+
+.register-login span {
+	display:inline-block;
+	margin:-10 3px;
+	
+}
+.register{
+	position: absolute;
+}
+.slider-area{
+	margin-left: 100px;
+}
+.item{
+	width: 100%;
+	height: 400px;
+	padding-left: 50px;
+}
+.carousel-caption {
+    left: 50%;
+    right: 20%;
+    padding-bottom: 30px;
+  }
+.box{
+	right: 100px;
+}
+.carousel-caption h4{
+	color: red;
+}
+.carousel-caption h2{
+	color: #000000;
+}
+.carousel-caption span{
+	color: red;
+}
+.carousel-caption p{
+	color: rgb(119, 110, 110);
+}
+.carousel-caption del{
+	color: rgb(119, 110, 110);
+}
+
+/*----------------------------------------*/
+/*  5.2 Banner
+/*----------------------------------------*/
+.banner-sm, .banner-md {
+	position:relative;
+}
+.banner-sm img {
+	width:100%;
+}
+.banner-info {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:9;
+	padding:15px;
+}
+.banner-info h4 {
+	color:#e23e1d;
+	font-size:16px;
+	font-weight:500;
+}
+.banner-info p {
+	font-size:22px;
+	line-height:36px;
+	font-weight:300;
+	color:#191919;
+}
+.banner-info p br {
+	line-height:1;
+}
+.banner-info p strong {
+	color:#252525;
+	font-weight:500;
+}
+.product-value span {
+	font-size:16px;
+	color:#e23e1d;
+	font-weight:500;
+}
+.product-value del {
+	font-size:14px;
+	color:#b7b7b7;
+}
+.banner-md img {
+	width:100%;
+}
+.banner-md .banner-info {
+	padding:27px 40px 26px 40px;
+}
+.banner-md .banner-info p {
+	font-size:28px;
+	line-height:40px;
+}
+.banner-square {
+	position:relative;
+    outline: 5px solid rgba(255,255,255,.3);
+    outline-offset: -30px;
+}
+.banner-caption {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	height:90px;
+	margin:auto;
+	text-align:center;
+	z-index:99;
+}
+.banner-caption h2, .banner-caption h3 {
+	color:#ffffff;
+}
+.banner-caption h2 {
+	font-size:60px;
+	font-weight:500;
+}
+.banner-caption h3 {
+	font-size:36px;
+	font-weight:normal;
+}
